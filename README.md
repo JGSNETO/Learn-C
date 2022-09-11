@@ -116,4 +116,27 @@ Include command
 - !=
 - && 
 - ||
--
+- !
+
+### Conditional operations
+
+- condition ? expression1 : expression 2
+- z = (a>b) ? a:b;  
+
+### Cast operations 
+
+- var = (new_type) expression;
+- var1 = (int) var2;
+
+### I/O Commands
+
+- printf("", arg_list);
+- scanf("%x", &var);
+- getchar()
+- getch() getche()
+- gets()
+- puts()
+- putchar()
+
+### Decision commands
+
