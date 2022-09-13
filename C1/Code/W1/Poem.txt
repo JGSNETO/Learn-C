@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(void){
+    printf("haiku:\n");
+    printf("I have just written\n");
+    printf("A little haiku today\n");
+    printf("I guess it was fun\n");
+    return 0;
+}
