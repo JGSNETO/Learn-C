@@ -25,3 +25,4 @@ signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile
 # W3
 
 - Logical operators: if-else, switch, while, for, goto.
+- Ternary operator: var = expression1 ? expression2:expression3
