@@ -21,3 +21,7 @@
 signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while. 
 
 - Identifiers: main
+
+# W3
+
+- Logical operators: if-else, switch, while, for, goto.
