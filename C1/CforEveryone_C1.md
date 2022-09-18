@@ -26,3 +26,9 @@ signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile
 
 - Logical operators: if-else, switch, while, for, goto.
 - Ternary operator: var = expression1 ? expression2:expression3
+- Break x Continue
+
+# W4
+
+- Function definition
+- Function prototype: Declare something before it is defined
