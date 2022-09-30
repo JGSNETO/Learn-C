@@ -140,3 +140,70 @@ Include command
 
 ### Decision commands
 
+- IF:
+if(condition){ 
+...
+}else{
+...
+}
+
+- Switch:
+
+switch(var_tested){
+case value_1:{
+...
+breal;
+}
+case value_2:{
+...
+break;
+}
+default{
+...
+  }
+}
+
+- While
+
+while(condition){
+...
+}
+
+- For 
+
+for(condition){
+...
+}
+
+### Command Var
+
+- Break: Finish the process of loop structures or the execution of one switch.
+- Return: Output mechanisms, returning one value for the function. 
+- Continue: Finish the current iteraction and jump to the next iteraction.
+- Goto: Change the flow of the program. 
+- Exit: End the program. 
+
+### Vector and Matrices 
+
+- Vector: One-dimensional matrices. 
+- General Syntax: type var_name[size_1][size_2]..[size_n]
+- E.G: int vector[5] = {1,2,3,4,5};
+- E.G: char text[2][2] = {'a', 'b', 'c', 'd'};
+
+### Register 
+
+- Register is an heterogeneous structure, that means, one colection of variables that can assume different types of data. All the var are grouped under
+one same name. E.G: struct. 
+
+### Typedef
+
+- Typedef define one new name to a new data or structure already existing. 
+
+
+
+
+
+
+
+
+
