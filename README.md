@@ -199,8 +199,37 @@ one same name. E.G: struct.
 
 - Typedef define one new name to a new data or structure already existing. 
 
+### String Manipulation 
 
+- String: A vector of char. 
+- Last element = '\0'.
+- Syntax: char var_type[size];
 
+- Basic functions to manipulate strings
+- gets(var_name): Lê string do teclado. 
+- printf(string): Prints the string.
+- strcpy(string_destiny, string_origin): Copy the origin string into the destiny string.
+- strcat(string_destiny, string_origin): Concatenate the origin string with the destiny string. 
+- strlen(string): Return string length.
+- strcmp(str1, str2): Compare two strings. 
+
+### Functions
+
+- Functions are structures that allow the user separate the program in construction blocks. 
+- Sytax:
+
+type function_name(arg_list){
+...
+}
+
+### Passing parameter by value
+
+In passing parameter by value, the arg values are copied into formal parameter. Any change in the value on those parameters, will not change the value on the original variables. 
+
+### Passing parameter by reference
+
+In this case, the changes peformed into the formal parameter will change the value on the original variable. In this case, the formal parameter must be declare as 
+pointers. 
 
 
 
