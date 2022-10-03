@@ -231,6 +231,21 @@ In passing parameter by value, the arg values are copied into formal parameter. 
 In this case, the changes peformed into the formal parameter will change the value on the original variable. In this case, the formal parameter must be declare as 
 pointers. 
 
+### Recursion 
+
+- When a function call himself or another function inside herself.
+- Consumes more memory and takes more time. 
+
+### Main function
+
+- The main function can have two formal parameters pre-defined.
+- argc and argv: Provide access to command line from the OS thoughout the program was called. 
+- type main(int argc, char *argv[]);
+- Argc(Argument Count): Integer and represents the number of word typed on command line. The name of the program is allways the first argument. Indicates
+how many elements we have in argv.
+- Argv(Argument values): Pointer to string matrice. Each string of this matrix is one of the parameters on command line. argv[0] always points to program name. 
+
+### Pointers
 
 
 
