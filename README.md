@@ -78,7 +78,7 @@ Include command
 - Globa: Visible to the whole program
 
 ## Class specifiers 
-- Extern, Staic, register, auto;
+- Extern, Static, register, auto;
 - Specifier modifier type var;
 
 - Extern: Solve the duplicity of global var different programs. You declare all the global var in one file, and in the others you repeat using 'extern';
